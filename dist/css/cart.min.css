@@ -1,0 +1,128 @@
+@charset "UTF-8";
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, dl, dd, hr, ul, ol, td, input, option, textarea {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "微软雅黑";
+  background: #fcfcfc;
+  display: flex;
+  flex-direction: column;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  border: none;
+}
+
+html, body {
+  height: 100%;
+}
+
+header {
+  width: 887px;
+  margin: 3px auto;
+}
+
+header #top {
+  font-size: 12px;
+  color: #363535;
+}
+
+header #top span {
+  margin-left: 591px;
+}
+
+header #top span a {
+  margin: 8px;
+  color: #bbf77f;
+}
+
+header #top i {
+  font-style: normal;
+}
+
+header #cart {
+  border: 1px solid #8b8989;
+}
+
+header #cart p:nth-child(1) {
+  background: pink;
+  line-height: 30px;
+  font-size: 16px;
+  font-weight: bold;
+  padding-left: 20px;
+}
+
+header #cart p:nth-child(2) {
+  font-size: 12px;
+  padding: 20px;
+  border-bottom: 1px solid #a33232;
+}
+
+header #cart p:nth-child(3) {
+  font-size: 12px;
+  padding: 5px;
+  color: #626363;
+}
+
+header #cart table {
+  border-top: 1px dashed #68696b;
+  background: #ddd;
+}
+
+header #cart table th {
+  font-size: 12px;
+  color: #68696b;
+  line-height: 36px;
+  font-weight: 100;
+}
+
+header #cart table tr {
+  background: #c8ca3b;
+}
+
+header #cart table tr td {
+  text-align: center;
+}
+
+header #cart table tr td span {
+  display: block;
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+header #cart table tr td a {
+  font-size: 12px;
+  color: blue;
+  margin: 10px 10px;
+}
+
+header #cart table tr td img {
+  display: block;
+  width: 70px;
+  height: 70px;
+  margin: auto;
+  padding: 10px 0;
+}
+
+header #cart table tr td:nth-child(6) img {
+  width: 11px;
+  height: 11px;
+  float: left;
+}
+
+header #cart table tr td:nth-child(6) input {
+  float: left;
+  text-align: center;
+  width: 31px;
+  height: 16px;
+}

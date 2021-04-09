@@ -1,0 +1,65 @@
+@import 'public';
+@import 'bottom';
+@import 'logreg';
+section{
+    width: 980px;
+    margin: 50px auto 110px;
+}
+#l_left{
+    width:496px ;
+    height: 304px;
+    background: url(../img/cxhd.jpg);
+    margin-top: 25px;
+    float: left;
+}
+#l_right {
+    width: 402px;
+    height: 465px;
+    float: right;
+    background: url(../img/login_fd.png);
+    // position: relative;
+    .dl{
+        margin: 81px 20px 0;
+        p{
+            span{
+                font-size: 12px;
+                display: inline-block;
+                width: 100px;
+                text-align: right;
+            }
+            margin-bottom: 10px;
+        }
+    }
+    #l_login{
+        margin: 27px 80px 0;
+    }
+}
+
+#l_mark{
+    width: 337px;
+    height: 108px;
+    margin:24px auto;
+    background: url(../img/login_baiban.jpg);
+}
+#hzsh{
+    padding: 10px 5px;
+    font-size: 12px;
+}
+#hzsh ul li{
+    display: inline;
+}
+#hzsh a{
+    color: rgb(116, 116, 245);
+    margin-right: 5px;
+}
+#lbottom{
+    margin: -27px 31px;
+}
+#lbottom p{
+    font-size: 12px;
+}
+#lbottom div{
+    width: 110px;
+    height: 41px;
+    margin: 10px auto;
+}

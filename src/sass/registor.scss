@@ -1,0 +1,72 @@
+
+
+@import 'public';
+
+@import 'logreg';
+#greet{
+    width: 756px;
+    height: 76px;
+    background: url(../img/hy.jpg);
+    background-position: 0 0;
+    margin: 0 auto;
+    position: relative;
+}
+#greet span{
+    position: absolute;
+    color: white;
+    line-height: 63px;
+    left: 530px;
+
+}
+#greet #login{
+    cursor: pointer;
+    width: 128px;
+    background: url(../img/reglogin.png);
+    background-position: 0px 0px;
+    height: 38px;
+    position: absolute;
+    right: 21px;
+    top: 12px;
+}
+#reg1{
+    width: 750px;
+    margin: 0 auto;
+    background: white;
+}
+#reg1 h3{
+    margin-left: 5px;
+    color: #d1436b;
+    font-size: 16px;
+}
+#reg1 p{
+    margin-top: 20px;
+    font-size: 14px;
+}
+#pyzm{
+    margin-left: 135px;
+}
+
+#reg_main p{
+    font-size: 12px;
+    display: block;
+    color: #999999;
+    margin-left: 133px;
+}
+#r_sub{
+    width: 130px;
+    height: 35px;
+    margin: 20px auto 0;
+    /* padding-bottom: 20px; */
+}
+#sub{
+    width: 130px;
+    height: 35px;
+    background: purple;
+    color: seashell; 
+}
+#r_bottom{
+    width: 758px;
+    height: 33px;
+    background: url(../img/bottom.jpg);
+}
+@import 'bottom';

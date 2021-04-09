@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/cart.min.css">
+</head>
+<body>
+    <header>
+        <div id="top">
+            <span>你好，欢迎来到D1购物，请<a href="login.html" id="login">登录</a>或<a href="registor.html" id="registor">注册</a></span>
+            <i>幫助中心</i>
+        </div>
+        <img src="../img/sc_logo.jpg" alt="">
+        <div id="cart">
+            <p>我挑选的商品清单</p>
+            <p>温馨提示：1.选购清单中的商品无法保留库存，请您及时结算。2.商品价格、赠品及库存将以订单提交时为准。</p>
+            <p> 如下商品，由 D1优尚网 负责发货 </p>
+            <table class="cart_img cartList">
+                <th style="width: 158px;"></th>
+                <th style="width: 300px;">商品名称/编号</th>
+                <th style="width: 100px;">规格</th>
+                <th style="width: 80px;">会员价</th>
+                <th style="width: 80px;">成交价</th>
+                <th style="width: 86px;">数量</th>
+                <th style="width: 81px;">小计</th>
+            </table>
+        </div>
+    </header>
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/1.12.4/jquery.js"></script>
+    <script src="../js/json.min.js"></script>
+    <script>
+        new Cart();
+    </script>
+</body>
+</html>

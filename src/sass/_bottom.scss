@@ -1,0 +1,93 @@
+footer{
+    width: 100%;
+    #wrapper{
+        width: 1100px;
+        margin: 10px auto;
+        #us_virtue{
+            margin-top: 20px;
+            margin-left: 62px;
+            span{
+                display: inline-block;
+                width: 160px;
+                height: 50px;
+                background-image: url(../img/1.jpg);
+                margin-right: 80px;
+              }  
+        }
+        #zp{
+            background-position:0 -76px;
+        }
+        #ps{
+            background-position: -158px -76px;
+        }
+        #aq{
+            background-position: -316px -76px;
+        }
+        #fw{
+            background-position: -515px -76px;
+        }
+    
+        #one{
+            margin-left: 62px;
+        }
+        dl{
+            float: left;
+            margin: 20px 40px 0 0;
+            dt{
+                font-weight: bolder;
+                color: black;
+                font-size: 14px;
+                margin-bottom: 10px;
+            }
+            a{
+                line-height: 24px;
+                color: rgb(77, 76, 76);
+                font-size: 12px;
+                span{
+                    color: red;
+                }
+            }
+        }
+        #wx{
+            width: 240px;
+            height: 125px;
+            background-image: url(../img/1.jpg);
+            background-position: 0 -843px;
+        }
+        #hr{
+            clear: left;
+        }
+        #footer{
+            width: 980px;
+            margin: 0 auto;
+            p{
+                margin-top: 20px;
+                text-align: center;
+                font-size: 12px;
+                a{
+                    color: rgb(32, 32, 32);
+                }
+            }
+            #tp{
+                text-align: center;
+            }
+            #D1{
+                margin-top: 5px;
+                font-size: 12px;
+                color: rgb(117, 116, 116);
+                text-align: center;
+                margin-bottom: 100px;
+            }
+        }
+    }
+}
+
+
+
+
+#wrapper dl dd a:hover{
+    color: brown;
+}
+#footer p a:hover{
+    color: brown;
+}

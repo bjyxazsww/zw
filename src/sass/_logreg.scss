@@ -1,0 +1,41 @@
+#head{
+    width: 980px;
+    height: 83px;
+    margin: 0 auto;
+    #logo{
+        width:276px ;
+        height: 83px;
+        background: url(../img/spring.png) no-repeat;
+        background-position: 0 -19px;
+        float: left;
+        position: relative;
+    }
+    span{
+        float: left;
+        margin-top: 26px;
+        margin-left: 10px;
+        font-size: 12px;
+        a{
+            margin: 0 5px;
+            color: #8cc341;
+        }
+    }
+    ul{
+        float: right;
+        margin-top: 22px;
+        margin-left: 26px;
+        li{
+            margin-right: 5px;
+            float: left;
+            a{
+                color: black;
+                font-size: 12px;
+                font-weight: normal;
+            }
+        }
+    }
+}
+
+#head li a:hover{
+    color: #aa2e44;
+}

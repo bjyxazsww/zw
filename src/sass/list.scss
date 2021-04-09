@@ -1,0 +1,205 @@
+@import 'public';
+@import 'listpro';
+#list{
+    #listOne{
+        width: 1000px;
+        margin: 5px auto;
+        border: 1px solid #e2e2e2;
+        overflow: hidden;
+        p{
+            float: left;
+            padding: 3px 10px;
+            font-size: 12px;
+            a{
+                color: black;
+                position: relative;
+                b{
+                    width: 0;
+                    height: 0;
+                    border: 5px solid transparent;
+                    border-top-color: #363535;
+                    position: absolute;
+                    top: 7px;
+                }
+            }
+            :hover{
+                color: rgb(207, 12, 12);
+            }
+            
+        }
+    }
+    #listTwo{
+        width: 980px;
+        margin: 5px auto;
+        margin-top: 10px;
+        font-size: 12px;
+        div:nth-child(3){
+            border-top: none;
+        }
+        div:nth-child(2){
+            border-top: none;
+        }
+        div{
+            padding: 5px 0;
+            overflow: hidden;
+            border: 1px solid #999;
+            span{
+                display: inline-block;
+                width: 87px;
+                float: left;
+                text-align: center;
+                color: #999;
+            }
+            b{
+                float: left;
+                padding-left: 5px;
+                color: #999;
+            }
+            ul{
+                float: left;
+                li{
+                    float: left;
+                    margin: 0 5px;
+                    a{
+                        color: rgb(44, 43, 43);
+                    }
+                    a:hover{
+                        color: #e4393c;
+                    }
+                }
+            }
+        }
+    }
+}
+#xl{
+    width: 980px;
+    margin: 0 auto;
+    border: 1px solid #999;
+    border-top: 2px solid black;
+    div{
+        border-right:1px solid #999;
+        float: left;
+        width: 85px;
+        text-align: center;
+        font-size: 12px;
+        line-height: 20px;
+        cursor: pointer;
+        position: relative;
+        img:nth-child(1){
+            position: absolute;
+            top: 6px;
+            left: 56px;
+        }
+        img:nth-child(2){
+            display: none;
+            position: absolute;
+            top: 6px;
+            left: 56px;
+        }
+    }
+    div:hover{
+        color: brown;
+    }
+    div:hover img:nth-child(1){
+        display: none;
+    }
+    div:hover img:nth-child(2){
+        display: block;
+    }
+    span{
+        font-size: 12px;
+        img{
+            position: absolute;
+            top: 249px;
+            right: 207px;
+            cursor: pointer;
+        }
+    }
+    
+}
+section{
+    width: 980px;
+    margin: 0 auto;
+    .list{
+        width: 243px;
+        height: 371px;
+        float: left; 
+        position: relative;
+        border: 1px solid transparent;
+        div:nth-child(1){
+            width: 200px;
+            height: 200px;
+            margin: 10px auto;
+        }
+        a{
+            display: block;
+            margin: 4px auto;
+            width: 200px;
+            font-size: 12px;
+            color: rgb(61, 61, 61);
+            :hover{
+                color: red;
+            }
+        }
+        #jg{
+            width: 200px;
+            margin:  0 auto;
+            position: relative;
+            span:nth-child(1){
+                font-size: 12px;
+                color: red;
+                font-weight: bold;
+            }
+            span:nth-child(2){
+                font-size: 12px;
+                color: #4b4b4b;
+            }
+            img{
+                width: 87px;
+                height: 24px;
+                position: absolute;
+                right: 19px;
+            }
+        }
+        #pl{
+            width: 200px;
+            margin: 2px auto;
+            span{
+                font-size: 12px;
+                margin-left: 2px;
+            }
+            
+        }
+        #cont{
+            width: 200px;
+            margin: 2px auto;
+            position: relative;
+            input{
+                width: 41px;
+                height: 27px;
+                outline: 0;
+            }
+            #one{
+                position: absolute;
+                top: 2px;
+                left: 50px;
+            }
+            #two{
+                position: absolute;
+                top: 16px;
+                left: 50px;
+            }
+            #three{
+                position: absolute;
+                top: 4px;
+                left: 73px;
+            }
+        } 
+         
+    }
+    
+}
+section .list:hover{
+    border: 1px solid red;
+}
+@import 'bottom';

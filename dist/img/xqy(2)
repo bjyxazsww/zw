@@ -1,0 +1,608 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1">
+<title>D1优尚网-404</title>
+<script type="text/javascript" src="/res/js/d1.js?1.22"></script>
+<link href="/res/css/global.css?1.12" rel="stylesheet" type="text/css" media="screen" />
+<style type="text/css">
+.center{ margin:0px auto;width:700px; padding-top:15px;}
+   .notice{
+           margin:0px auto;
+			width: 490px;
+			height: 40px;
+			margin-bottom: 30px;
+			padding-top: 12px;
+			background: url(http://images.d1.com.cn/images2012/notice_404.gif) no-repeat left;
+			text-align: right;
+}
+.blayout .hot_fl{ width:700px;  overflow:hidden;}
+
+.flcontet{ height:340px; width:698px; _width:698px;border:solid 1px #dfdfdf; border-top:3px #a63b55 solid; }
+.flcontent_sub {    border-bottom:dashed 1px #cfcfcf;  padding:11px; height:41px; _height:40px;}
+.flcontent_sub ul{ padding:0px; margin:0px; width:680px; _width:670px;}
+.flcontent_sub ul li{ line-height:20px;float:left; color:#9c9c9c} 
+.flcontent_sub ul li a{ color:#000; margin-left:10px; margin-right:10px;}
+.flcontent_sub ul li a:hover{ color:#aa2e44;  margin-left:10px; margin-right:10px;}
+.flcontent_sub span a{ color:#aa2e44; font-weight:bold;}
+.flcontent_sub span a:hover{ color:#aa2e44; font-weight:bold; text-decoration:underline;}
+
+
+.flcontent_sub_1 { border-bottom:none; padding:11px; height:41px; _height:40px;}
+.flcontent_sub_1 ul{ padding:0px; margin:0px; width:680px; _width:670px;}
+.flcontent_sub_1 ul li{ line-height:20px;float:left; color:#9c9c9c} 
+.flcontent_sub_1 ul li a{color:#000;  margin-left:10px; margin-right:10px;} 
+.flcontent_sub_1 ul li a:hover{ color:#aa2e44;  margin-left:10px; margin-right:10px;}
+.flcontent_sub_1 span a{ color:#aa2e44; font-weight:bold;}
+.flcontent_sub_1 span a:hover{ color:#aa2e44; font-weight:bold; text-decoration:underline;}
+
+
+.flmouseover {  border:solid 1px #a73c50; padding:10px; height:41px; _height:40px;}
+.flmouseover ul{ padding:0px; margin:0px; width:680px; _width:670px;}
+.flmouseover ul li{ line-height:20px;float:left; color:#9c9c9c;}
+.flmouseover ul li a{color:#000;  margin-left:10px; margin-right:10px;} 
+.flmouseover ul li a:hover{ color:#aa2e44;  margin-left:10px; margin-right:10px;}
+.flmouseover span a{ color:#aa2e44; font-weight:bold;}
+.flmouseover span a:hover{ color:#aa2e44; font-weight:bold; text-decoration:underline;}
+.searchs {
+        margin:0px auto;
+		width: 490px;
+		padding-top: 8px;
+		height: 35px;
+		background: url(http://images.d1.com.cn/images2012/404bg.gif) right;
+		margin-bottom:30px;
+}
+.searchs span.text {
+	width: 380px;
+	height: 20px;
+	float: left;
+	padding: 6px 3px 0px 3px;
+	margin: 0px 10px 0px 8px;
+	background: white;
+	border: 0px;
+}
+.searchs input.k {
+	border: 0px;
+	background: none;
+	width: 380px;
+}
+.searchs input.s {
+width: 70px;
+height: 26px;
+float: left;
+background: url(http://images.d1.com.cn/images2012/s404.gif) no-repeat;
+border: 0px;
+text-indent: -100px;
+}
+</style>
+</head>
+
+<body >
+   <!-- 头部 -->
+   
+
+
+<link href="/res/css/head2014new3.css?1617178777795" rel="stylesheet" type="text/css" media="screen" />
+  <link rel="stylesheet" type="text/css" href="/res/css/jquery.flexbox.css" />
+  <style>
+.mobile {
+    position: relative;
+    z-index: 21;
+}
+
+.mobile_pop {
+	display: none;
+    position: absolute;
+    left: 4px;
+    right: auto;
+    top: 30px;
+    width: 200px;
+    border: 1px solid #cfcfcf;
+    background-color: #fff;
+    z-index: 9999;
+}
+
+.mobile_pop_item {
+    position: relative;
+    z-index: 5;
+    padding: 15px 0;
+    border-bottom: 1px solid #E7E7E7;
+}
+
+.mobile_pop_device_lk {
+    background-image: url(//misc.360buyimg.com/mtd/pc/index/home/images/sprite_mobile@1x.png);
+}
+
+.mobile_pop_qrcode {
+    position: absolute;
+    left: 10px;
+    top: 12px;
+    width: 75px;
+    height: 75px;
+    border: 1px solid #CCC;
+    background-color: #F7F7F7;
+}
+
+.mobile_pop_qrcode img {
+    width: 75px;
+    height: 75px;
+}
+
+.mobile_pop_info {
+    margin: 0 5px 0 92px;
+    min-height: 70px;
+    text-align: left;
+}
+
+.mobile_pop_tit {
+    font-size: 12px;
+    line-height: 12px;
+    color: #666 !important;
+    padding: 8px 0;
+}
+
+.mobile_pop_tit a {
+    color: #666 !important;
+}
+
+.mobile_pop_value {
+    line-height: 16px;
+    color: #f0414e;
+}
+
+.mobile_pop_device {
+    overflow: hidden;
+    height: 25px;
+}
+
+.mobile_pop_device_lk {
+    overflow: hidden;
+    float: left;
+    margin-right: 2px;
+    width: 25px;
+    height: 25px;
+    text-indent: -999px;
+}
+
+.mobile_pop_device_ios {
+    background-position: 0 0;
+}
+
+.mobile_pop_device_and {
+    background-position: 0 -26px;
+}
+
+.mobile_pop_device_pad {
+    background-position: 0 -52px;
+}
+
+@media only screen and ( -webkit-min-device-pixel-ratio: 1.5 ), only screen and ( min--moz-device-pixel-ratio: 1.5 ), only screen and ( -o-min-device-pixel-ratio: 3/2 ), only screen and ( min-device-pixel-ratio: 1.5 ) {
+    .mobile_pop_device_lk {
+        background-image: url(//misc.360buyimg.com/mtd/pc/index/home/images/sprite_mobile@2x.png);
+        background-size: 25px 77px;
+    }
+}
+
+
+/* 2017/8/18 修改头部 */
+ .fl{
+    float: left;
+}
+ .hd_list {
+    padding-top:20px;
+}
+ .hd_list li{
+    width:80px;
+    height:21px;
+    text-align: center;
+}
+ .hd_list .active a{
+    color:#f35519;
+    border-bottom:2px solid #f35519;
+    padding:0 2px 5px;
+}
+ .hd_list li a{
+    font-size:16px;
+     
+    color: #999;
+    font-family: "微软雅黑", Verdana, Geneva, sans-serif!important;
+}
+ .hd_list li a:hover{
+    color:#f35519;
+}
+.h_menu{
+  display: none;
+}
+.wrap{
+  border-top: 1px solid #fff;
+}
+.hm_searchtxt{
+  width: 250px!important;
+}
+.hm_searchtxt{
+    outline: none;
+}
+.active{
+  color: #f35519!important;
+}
+a{
+  font-family: "微软雅黑", Verdana, Geneva, sans-serif!important;
+}
+
+</style>
+<script type="text/javascript" src="/res/js/jsSource/jquery.flexbox.js"></script>
+  <script type="text/javascript" src="/res/js/head201309.js"></script>
+  <script type="text/javascript">
+   var div05 = document.getElementById('div05');
+  function mOut2() {
+      document.getElementById('div05').style.display = 'none';
+  }
+  function mOver2() {
+      document.getElementById('div05').style.display = 'block';
+  } 
+  </script>
+<style>
+.ht_wid {width:980px;}
+</style>
+
+
+ 
+
+
+
+
+<div class="clear"></div>
+<div class="header wrap" id="header" style="height:135px;">
+	<div class="h_top">
+     <div class="ht_wid wrap">
+      <div class="ht_login f_l">
+      <span class="ShowWelcome" id="ShowWelcome"> 您好，欢迎来到D1购物,请&nbsp;<a href="http://www.d1.com.cn/login.jsp">登陆</a>&nbsp;或&nbsp;<a href="http://www.d1.com.cn/register.jsp">注册</a></span>
+      </div>
+      <div class="ht_menu f_r">
+         <ul>
+            <li class="ht_menulil"><a href="http://www.d1.com.cn/user/" onmouseover="displayfzh()" onmouseout="outfzh()" rel="nofollow">我的帐户<b></b></a>
+            <div class="floatzh" id="floatzh" onmouseover="displayfzh()" onmouseout="outfzh()">
+              <ul><li><a href="http://www.d1.com.cn/user/selforder.jsp" target="_blank" rel="nofollow">我的订单</a></li>
+			     <li><a href="http://www.d1.com.cn/user/ticket.jsp" target="_blank" rel="nofollow">我的优惠券</a></li>
+				 <li><a href="http://www.d1.com.cn/user/points.jsp" target="_blank" rel="nofollow">我的积分</a></li>
+				 <li><a href="http://www.d1.com.cn/user/favorite.jsp" target="_blank" rel="nofollow">我的收藏</a></li>
+				 <li><a href="http://www.d1.com.cn/user/myshoworder.jsp" target="_blank" rel="nofollow">我的晒单</a></li>
+				 <li><a href="http://www.d1.com.cn/user/comment.jsp" target="_blank" rel="nofollow">我的评论</a></li>
+		     </ul></div>
+            </li>
+            <li class="ht_menulil"><a href="http://www.d1.com.cn/user/selforder.jsp" target="_blank" rel="nofollow">订单查询</a></li>
+            <li class="ht_menulil"><a href="http://www.d1.com.cn/jifen/index.jsp" target="_blank">积分换购</a>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; </li>
+            <li class="ht_menulil"><a href="http://help.d1.com.cn/" target="_blank">帮助中心</a></li>
+            <li class="ht_menulir">
+            	<a href="#"  style="CURSOR: pointer" onclick="javascript:window.open('https://chat16.live800.com/live800/chatClient/chatbox.jsp?companyID=760952&configID=149421&jid=6649459303&info=userId%3Dpc%26name%3Dpc%26memo%3Dpc');" >在线客服</a>
+            </li>
+            <li class="ht_menulir"  id="div06" onmouseover="mOver2()" onmouseout="mOut2()">
+            <a href="#" target="_blank">手机优尚</a>
+            <span class="ico_dis"></span>
+                        <div id="div05" class="mobile_pop">
+                            <div class="mobile_pop_item">
+                                <div class="mobile_pop_qrcode mobile_pop_qrcode_1">
+                                    <img src="../images/youshangchuangyishenghuo.jpg">
+                                </div>
+                                <div class="mobile_pop_info">
+                                    <h5 class="mobile_pop_tit">关注优尚创意生活</h5>
+                                    <p class="mobile_pop_value">微信扫一扫关注<br>创意生活 尽在掌握</p>
+                                </div>
+                            </div>
+                            <div class="mobile_pop_item">
+                                <div class="mobile_pop_qrcode mobile_pop_qrcode_2">
+                                    <img src="../images/youshangmeizhuang.png">
+                                </div>
+                                <div class="mobile_pop_info">
+                                    <h5 class="mobile_pop_tit">关注优尚美妆</h5>
+                                    <p class="mobile_pop_value">微信扫一扫关注<br>每周一次美妆特卖</p>
+                                </div>
+                            </div>
+                            <div class="mobile_pop_item">
+                                <div class="mobile_pop_qrcode mobile_pop_qrcode_3">
+                                    <img src="../images/app-tongyongerweima.png">
+                                </div>
+                                <div class="mobile_pop_info">
+                                    <h5 class="mobile_pop_tit"><a href="" target="">下载APP</a></h5>
+                                    <p class="mobile_pop_value">微信扫一扫下载<br>一元领取APP礼物</p>
+                                </div>
+                            </div>
+                        </div>
+            </li>
+            <!-- <li class="top_li" id="div06" onmouseover="mOver2()" onmouseout="mOut2()">
+                        <a href="##">手机优尚</a>
+                        
+                    </li> -->
+            </li>
+         </ul>
+      </div>
+      </div>
+	</div>
+	 <div class="ht_wid wrap">
+      <div class="h_mid">
+      <a href="http://www.d1.com.cn">
+         <div class="hm_logo" ></div></a>
+        
+  
+      	  <!--
+      	          <a href="http://www.d1.com.cn/html/zt2014/jg0421/index.jsp" target="_blank"><div style="height: 80px; width: 208px;" class="bg_style"></div></a> 
+      	   <DIV class="sghot">
+
+			   <div id="slide">
+						
+	           		 		<div id="p">
+                               <table width="190" height="60">
+ 									 <tr>
+ 									   <td width="63" rowspan="2" align="left">
+ 									   <img width="60" height="60" src=""/>
+ 									   </td>
+   									   <td width="127" class="hm_sg_title"  height="30"></td>
+ 									 </tr>
+ 									 <tr>
+  									   <td  class="hm_sg_mprice"  height="30" valign="top">限量特价：￥</td>
+ 									 </tr>
+								</table>
+							</div>	
+	           		 		
+	           		 		
+                  </div>
+                <div id="previous"></div>
+	            <div id="next"></div>
+
+             </DIV>-->
+      <div class="hd_list fl">
+            <ul>
+                  <li class="fl r"><a class="" id="styleindex" href="http://www.d1.com.cn">首页</a></li>             
+                <li class="fl r"><a id="style012" href="http://www.d1.com.cn/result.jsp?productsort=012018&order=4">创意家居</a></li>
+                <li class="fl r"><a id="style081" href="http://www.d1.com.cn/digital">创意数码</a></li>
+                <li class="fl r"><a id="style019" href="http://www.d1.com.cn/ornament">时尚装备</a></li>
+            </ul>
+      </div> 
+       <div class="hm_search" style="padding-left:0px;width: 340px!important;">
+          <div class="hms_but" style="margin-top: 18px;">
+          <div style="float:left;"><div id="ffb9"></div></div><input name="hm_searchbut" style="float:left;"  id="hm_searchbut" onclick="searchbut()" class="hm_searchbut" type="submit" value="搜索"  />         
+            <div style="clear:both;"></div>
+           </div>
+            <div class="hms_key" style="display: none;">
+                <ul>
+                   <li class="linnone">热门搜索：</li>
+                    <li><a href=http://www.d1.com.cn/shop/1253/1 title=冰爽夏日 target=_blank>冰爽夏日</a></li><li><a href=http://www.d1.com.cn/result.jsp?productsort=012018010005 title=灭蚊 target=_blank>灭蚊</a></li><li><a href=http://www.d1.com.cn/search.jsp?headsearchkey=%E6%B8%85%E4%BB%93 title=清仓 target=_blank>清仓</a></li><li><a href=http://www.d1.com.cn/search.jsp?headsearchkey=%E9%9B%A8%E5%AD%A3%E7%A5%9E%E5%99%A8 title=雨季 target=_blank>雨季</a></li>
+                </ul>
+            </div>
+         </div>
+          <div class="hm_sglist"  style="padding-left:0px;margin-top: 10px;display: none;">
+               <div style="height: 80px; width: 208px;">
+               <img src="http://images.d1.com.cn/Index/2015/help.jpg" />
+               </div>
+               </div>
+        <div class="hm_flow" id="headerbuy_list" style="float: left;margin-top: 18px;">
+            <div class="hm_flowtxt"> <a href="http://www.d1.com.cn/flow.jsp" target="_blank">购物车<em id="headcardnum">0</em>件<b></b></a></div>
+             <div class="cart" id="Headcart">正在加载购物车...<img src="http://images.d1.com.cn/images2013/newindex/Loading.gif" alt="Loading"></div>
+        </div>
+      </div>
+    </div>
+    <div class="h_menu" >
+    
+    <script language="javascript">
+    
+    var productsort = "null";
+    var shopindexid = "null";
+    var url_idsy = "http://www.d1.com.cn/404.jsp";
+    $(document).ready(function() {
+    	$('#ffb9').flexbox('/ajax/search/hotkeys.jsp',{
+    		  autoCompleteFirstMatch: false,
+    		    selectFirstMatch:false,
+    		    noResultsText: '',
+    		    paging: false,
+    		    width:320,
+    		    initialValue:'请输入您要搜索的商品名称或编码',
+    		    inputClass:'hm_searchtxt',
+    		    containerClass:'ffb',
+    		    contentPos:{w:-0,t:-5,l:-1}
+    		  });
+      	$('#ffb9_arrow').hide();
+      	$('#ffb9_input').keydown(function(){
+      		keydownsearch();
+      	}).focus(function(){
+             if(this.value=='请输入您要搜索的商品名称或编码'){this.value='';this.style.color='#333'}
+      	}).blur(function(){
+      		if(this.value==''){this.value='请输入您要搜索的商品名称或编码';this.style.color='#999999'}
+      	});
+    	$('#head_allfl').parent().hover(function(e){
+   		 $('#allfl').css('display','block');
+   		 $("#head_allfl").parent().addClass("hover");
+   	 }, function(e){
+   		 $("#head_allfl").parent().removeClass("hover");
+   		 $('#allfl').css('display','none');
+   	 });
+   	  $('.allfl').hover(function(e){
+   			 $('#allfl').css('display','block');
+   			  $("#head_allfl").parent().addClass("hover");
+   		 }, function(e){
+   			 $('#allfl').css('display','none');
+   			  $("#head_allfl").parent().removeClass("hover");
+   		 });
+    	
+	    if(productsort != null && productsort != "" && productsort != "null"){
+	    	$('.hmenu_txt li a').removeClass("active");
+			$('#style'+productsort).addClass("active").css({"color":"#f35519"});
+	    
+	    }else if(shopindexid != null && shopindexid=="789"){
+	    	$('.hmenu_txt li a').removeClass("active");
+	    	$('#stylec').addClass("active").css({"color":"#f35519"});
+	    }else{
+	    	$('.hmenu_txt li a').removeClass("active");
+	    }
+    });
+    </script>
+     <div class="hmenu_txt" style="width:1210px;">
+          <ul style="font-size:14px;">
+         <!--    <li class="l" style="width:209px;"><a  id="head_allfl" style="width:209px;" class="cur" >全部商品<b></b></a></li>
+         <li class="r"><a id="styleindex" href="http://www.d1.com.cn">首页</a></li>
+                    <li class="r"><a id="style014" href="http://www.d1.com.cn/cosmetic">化妆品</a></li>
+                    <li class="r"><a id="style012" href="http://www.d1.com.cn/home">创意家居</a></li>
+                    <li class="r"><a id="style081" href="http://www.d1.com.cn/digital">创意数码</a></li>
+                   <li class="r"><a  id="style019" href="http://www.d1.com.cn/ornament">时尚装备</a></li> -->
+          </ul>
+       </div>
+       <!--浮动层-->
+	<div id="head_floatdiv" style="margin:0px auto;max-width:1200px;position:relative;z-index:10000;">
+	<!--全部分类-->_
+	<div id="allfl" class="allfl"  style="display:none;" >
+	  <script type="text/javascript" src="/inc/head1604.jsp"></script>
+	</div>
+	<!--全部分类结束-->
+	</div>
+	 <!-- 浮动层结束    -->
+    </div>
+</div>
+	<script language="javascript" src="https://chat16.live800.com/live800/chatClient/monitor.js?jid=6649459303&companyID=760952&configID=149420&codeType=custom&ss=1"></script>
+   
+   <!-- 头部结束 -->
+<div class="center">
+    <div class="notice">
+        <a href="/index.jsp"><img src="http://images.d1.com.cn/images2012/return_index.gif" alt="返回首页"/></a>
+    </div>
+    
+    <div class="searchs">
+    <form id="sform" method="post" action="404.jsp?act=sss" onsubmit="return false;">
+       <span class="text">
+          <input type="text" id="s4" name="s4" value="请输入您要搜索的商品名称" class="k" onfocus="$('#s4').val('');"/>
+       </span>
+       <span>
+       <input type="submit" class="s" value="" onclick="Check();"/>
+       </span>
+     </form>
+    </div>
+    
+     <!-- 热门分类-->
+          <div class="blayout hot_fl">
+			   <div class="flcontet" id="flcontet">
+			      <div class="flcontent_sub" style="height:60px;">
+                     <span><a href="/html/cosmetic/" target="_blank">化妆品</a></span>
+                     <div class="clear"></div>
+                     <ul><li><a href="http://www.d1.com.cn/html/news/index.jsp?productsort=014" target="_blank" title="新妆">新妆</a>|</li><li><a href="http://www.d1.com.cn/result.jsp?productsort=014001005" target="_blank" title="洁面">洁面</a>|</li><li><a href="http://www.d1.com.cn/result.jsp?productsort=014001002" target="_blank" title="面霜">面霜</a>|</li><li><a href="http://www.d1.com.cn/result.jsp?productsort=014001001" target="_blank" title="乳液">乳液</a>|</li><li><a href="http://www.d1.com.cn/result.jsp?productsort=014001015" target="_blank" title="晚霜">晚霜</a>|</li><li><a href="http://www.d1.com.cn/result.jsp?productsort=014001004" target="_blank" title="面膜">面膜</a>|</li><li><a href="http://www.d1.com.cn/result.jsp?productsort=014001008" target="_blank" title="眼霜">眼霜</a>|</li><li><a href="http://www.d1.com.cn/result.jsp?productsort=014001021" target="_blank" title="隔离">隔离</a>|</li><li><a href="http://www.d1.com.cn/result.jsp?productsort=014003019" target="_blank" title="BB霜">BB霜</a>|</li><li><a href="http://www.d1.com.cn/result.jsp?productsort=014001013" target="_blank" title="防晒">防晒</a>|</li><li><a href="http://www.d1.com.cn/result.jsp?productsort=014001028" target="_blank" title="精油">精油</a>|</li><li><a href="http://www.d1.com.cn/result.jsp?productsort=014001009" target="_blank" title="精华">精华</a>|</li><li><a href="http://www.d1.com.cn/result.jsp?productsort=014003013" target="_blank" title="眉笔">眉笔</a>|</li><li><a href="http://www.d1.com.cn/result.jsp?productsort=014003011" target="_blank" title="眼影">眼影</a>|</li><li><a href="http://www.d1.com.cn/result.jsp?productsort=014003020" target="_blank" title="眼线">眼线</a>|</li><li><a href="http://www.d1.com.cn/result.jsp?productsort=014003008" target="_blank" title="粉底">粉底</a>|</li><li><a href="http://www.d1.com.cn/result.jsp?productsort=014001007" target="_blank" title="卸妆">卸妆</a>|</li><li><a href="http://www.d1.com.cn/result.jsp?productsort=014003006" target="_blank" title="唇膏">唇膏</a>|</li><li><a href="http://www.d1.com.cn/result.jsp?productsort=014001003" target="_blank" title="护肤水">护肤水</a>|</li><li><a href="http://www.d1.com.cn/result.jsp?productsort=014001022" target="_blank" title="身体乳">身体乳</a>|</li><li><a href="http://www.d1.com.cn/result.jsp?productsort=014002002" target="_blank" title="女士香水">女士香水</a>|</li><li><a href="http://www.d1.com.cn/result.jsp?productsort=014002001" target="_blank" title="男士香水">男士香水</a>|</li><li><a href="http://www.d1.com.cn/result.jsp?productsort=014007" target="_blank" title="洗发护发">洗发护发</a>|</li><li><a href="http://www.d1.com.cn/result.jsp?productsort=014001018" target="_blank" title="男士护肤">男士护肤</a>|</li><li><a href="http://www.d1.com.cn/result.jsp?productsort=014001014" target="_blank" title="护肤套装">护肤套装</a>|</li></ul>
+				  </div>
+				  <div class="flcontent_sub" id="Div1">
+                     <span><a href="/html/cloth/" target="_blank">潮流女装</a></span>
+                     <ul><li><a href="http://www.d1.com.cn/html/news/index.jsp?productsort=020" target="_blank" title="新品">新品</a>|</li><li><a href="http://www.d1.com.cn/result.jsp?productsort=020004" target="_blank" title="针织衫">针织衫</a>|</li><li><a href="http://www.d1.com.cn/result.jsp?productsort=020006" target="_blank" title="外套/西装">外套/西装</a>|</li><li><a href="http://www.d1.com.cn/result.jsp?productsort=020010" target="_blank" title="裙子">裙子</a>|</li><li><a href="http://www.d1.com.cn/result.jsp?productsort=020002" target="_blank" title="T恤">T恤</a>|</li><li><a href="http://www.d1.com.cn/result.jsp?productsort=020008" target="_blank" title="长裤">长裤</a>|</li><li><a href="http://www.d1.com.cn/result.jsp?productsort=020009" target="_blank" title="短裤">短裤</a>|</li><li><a href="http://www.d1.com.cn/result.jsp?productsort=020001" target="_blank" title="衬衫">衬衫</a>|</li><li><a href="http://www.d1.com.cn/result.jsp?productsort=020007" target="_blank" title="羽绒/棉服">羽绒/棉服</a>|</li><li><a href="http://www.d1.com.cn/result.jsp?productsort=022003" target="_blank" title="丝袜">丝袜</a>|</li><li><a href="http://www.d1.com.cn/result.jsp?productsort=020012005" target="_blank" title="美体">美体</a>|</li><li><a href="http://www.d1.com.cn/result.jsp?productsort=020012004" target="_blank" title="睡衣">睡衣</a>|</li><li><a href="http://www.d1.com.cn/result.jsp?productsort=020012007" target="_blank" title="情趣">情趣</a>|</li></ul>
+				  </div>
+				  <div class="flcontent_sub" id="Div2">
+                     <span><a href="/html/man/" target="_blank">品质男装</a></span>
+                     <ul><li><a href="http://www.d1.com.cn/html/news/index.jsp?productsort=030" target="_blank" title="新款">新款</a>|</li><li><a href="http://www.d1.com.cn/result.jsp?productsort=030003" target="_blank" title="男式POLO">男式POLO</a>|</li><li><a href="http://www.d1.com.cn/result.jsp?productsort=030001" target="_blank" title="衬衫">衬衫</a>|</li><li><a href="http://www.d1.com.cn/result.jsp?productsort=030002" target="_blank" title="T恤">T恤</a>|</li><li><a href="http://www.d1.com.cn/result.jsp?productsort=030004" target="_blank" title="毛衫">毛衫</a>|</li><li><a href="http://www.d1.com.cn/result.jsp?productsort=030006" target="_blank" title="外套">外套</a>|</li><li><a href="http://www.d1.com.cn/result.jsp?productsort=030008004" target="_blank" title="牛仔裤">牛仔裤</a>|</li><li><a href="http://www.d1.com.cn/result.jsp?productsort=030008,030009" target="_blank" title="男裤">男裤</a>|</li><li><a href="http://www.d1.com.cn/result.jsp?productsort=030005" target="_blank" title="卫衣">卫衣</a>|</li><li><a href="http://www.d1.com.cn/result.jsp?productsort=031" target="_blank" title="休闲鞋">休闲鞋</a>|</li><li><a href="http://www.d1.com.cn/result.jsp?productsort=033003" target="_blank" title="钱包">钱包</a>|</li><li><a href="http://www.d1.com.cn/result.jsp?productsort=032005" target="_blank" title="腰带">腰带</a>|</li><li><a href="http://www.d1.com.cn/result.jsp?productsort=033" target="_blank" title="男包">男包</a>|</li></ul>
+				  </div>
+				  <div class="flcontent_sub" id="Div3">
+                     <span><a href="/html/ornament/" target="_blank">精美饰品</a></span>
+                     <ul><li><a href="http://www.d1.com.cn/html/news/index.jsp?productsort=015009" target="_blank" title="新品">新品</a>|</li><li><a href="http://www.d1.com.cn/html/result_rec.jsp?aid=7490" target="_blank" title="水晶">水晶</a>|</li><li><a href="http://www.d1.com.cn/result.jsp?productsort=015009006,015009007" target="_blank" title="吊坠项链">吊坠项链</a>|</li><li><a href="http://www.d1.com.cn/result.jsp?productsort=015009009,015009010" target="_blank" title="手镯手链">手镯手链</a>|</li><li><a href="http://www.d1.com.cn/result.jsp?productsort=015009004" target="_blank" title="耳饰">耳饰</a>|</li><li><a href="http://www.d1.com.cn/result.jsp?productsort=015009008" target="_blank" title="戒指">戒指</a>|</li><li><a href="http://www.d1.com.cn/result.jsp?productsort=015009016" target="_blank" title="饰品套装">饰品套装</a>|</li><li><a href="http://www.d1.com.cn/result.jsp?productsort=015009021" target="_blank" title="化妆镜">化妆镜</a>|</li><li><a href="http://www.d1.com.cn/result.jsp?productsort=015009003" target="_blank" title="毛衣链">毛衣链</a>|</li><li><a href="http://www.d1.com.cn/result.jsp?productsort=015009017" target="_blank" title="配饰">配饰</a>|</li><li><a href="http://www.d1.com.cn/result.jsp?productsort=015009012" target="_blank" title="胸针">胸针</a>|</li><li><a href="http://www.d1.com.cn/sales/salesviews.jsp?id=228" target="_blank" title="特卖">特卖</a>|</li></ul>
+				  </div>
+				  <div class="flcontent_sub_1">
+                     <span><a href="/html/shoebag/" target="_blank">名品箱包</a></span>
+                     <ul><li><a href="http://www.d1.com.cn/html/news/index.jsp?productsort=023" target="_blank" title="新品女包">新品女包</a>|</li><li><a href="http://www.d1.com.cn/result.jsp?productsort=023009" target="_blank" title="经典套装">经典套装</a>|</li><li><a href="http://www.d1.com.cn/html/news/index.jsp?productsort=021" target="_blank" title="凉鞋">凉鞋</a>|</li><li><a href="http://www.d1.com.cn/result.jsp?productsort=022" target="_blank" title="时尚配饰">时尚配饰</a>|</li><li><a href="http://www.d1.com.cn/result.jsp?productsort=015002004&Productother1=%E6%83%85%E4%BE%A3&img=http://images.d1.com.cn/edit/UploadFile/gdsimg/201112/20111229102614902.jpg" target="_blank" title="情侣表">情侣表</a>|</li><li><a href="http://www.d1.com.cn/result.jsp?productsort=015002004" target="_blank" title="热销表">热销表</a>|</li><li><a href="http://www.d1.com.cn/html/resulttj.asp?productsort=015002004" target="_blank" title="特价表">特价表</a>|</li><li><a href="http://www.d1.com.cn/html/special/zippo/zippo.asp#" target="_blank" title="Zippo打火机">Zippo打火机</a>|</li><li><a href="http://www.d1.com.cn/result.jsp?productsort=015002001" target="_blank" title="瑞士军刀">瑞士军刀</a>|</li><li><a href="http://www.d1.com.cn/result.jsp?productsort=015008&img=http://images.d1.com.cn/edit/UploadFile/gdsimg/201111/2011117154435585.jpg" target="_blank" title="钱币收藏">钱币收藏</a>|</li></ul>
+				  </div>
+			   </div>
+		   </div>
+		   <script type="text/javascript">
+		   $(function(){
+			  $('#flcontet > div').each(function(){
+				  var className = $(this).attr('className');
+				  $(this).hover(function(){
+					  $(this).attr('className','flmouseover');
+				  },function(){
+					  $(this).attr('className',className);
+				  });
+			  }); 
+		   });
+		   </script>
+		 
+
+</div>
+<div class="clear"></div>
+
+<link href="/res/css/foot2014.css?1617178777804" rel="stylesheet" type="text/css" media="screen" />
+<!--底部信息-->
+<div class="foot" align="center">
+	<br>
+	<div class="top"></div>
+    <div class="other_help">
+    <div class="wrapper" align="left"><div class="us_virtue"><span class="zp"></span><span class="ps"></span><span class="aq"></span><span class="fw"></span></div><dl><dt>购物帮助</dt><dd><a href="http://help.d1.com.cn/hphelpnew.htm?code=0103" target="_blank"> 购物的基本问题</a></dd><dd><a href="http://help.d1.com.cn/hphelpnew.htm?code=0105" target="_blank"> 如何使用优惠券</a></dd><dd><a href="http://help.d1.com.cn/hphelpnew.htm?code=0104" target="_blank"> 如何累计并消费积分</a></dd><dd><a href="http://help.d1.com.cn/hphelpnew.htm?code=0101" target="_blank"> 第一次购物体验</a></dd></dl><dl><dt>支付方式</dt><dd><a href="http://help.d1.com.cn/hphelpnew.htm?code=0201" target="_blank"> 货到付款</a></dd><dd><a href="http://help.d1.com.cn/hphelpnew.htm?code=0202" target="_blank"> 银行电汇</a></dd><dd><a href="http://help.d1.com.cn/hphelpnew.htm?code=0203" target="_blank"> 网银支付</a></dd><dd><a href="http://help.d1.com.cn/hphelpnew.htm?code=0204" target="_blank"> 邮局汇款</a></dd></dl><dl><dt>配送方式及费用</dt><dd><a href="http://help.d1.com.cn/hphelpnew.htm?code=0404" target="_blank"><span style="color:#ff0000">物流信息查询</span></a></dd><dd><a href="http://help.d1.com.cn/hphelpnew.htm?code=0303" target="_blank">配送范围</a></dd><dd><a href="http://help.d1.com.cn/hphelpnew.htm?code=0301" target="_blank"> 配送方式</a></dd><dd><a href="http://help.d1.com.cn/hphelpnew.htm?code=0302" target="_blank"> 运费说明</a></dd></dl> <dl><dt>售后服务</dt><dd><a href="http://help.d1.com.cn/hphelpnew.htm?code=06" target="_blank"> D1品质保证原则</a></dd><dd><a href="http://help.d1.com.cn/hphelpnew.htm?code=06" target="_blank"> D1退换货总原则</a></dd><dd><a href="http://help.d1.com.cn/hphelpnew.htm?code=06" target="_blank"> D1退换货地址及流程</a></dd><dd><a href="http://help.d1.com.cn/hphelpnew.htm?code=06" target="_blank"> D1退换货特殊说明</a></dd></dl><dl><dt>VIP特享政策</dt><dd><a href="http://help.d1.com.cn/hphelpnew.htm?code=0502" target="_blank"> VIP会员的优惠及服务</a></dd><dd><a href="http://help.d1.com.cn/hphelpnew.htm?code=0502" target="_blank"> 如何获得和保持VIP</a></dd><dd><a href="http://help.d1.com.cn/hphelpnew.htm?code=0503" target="_blank"> 如何升级为白金VIP</a></dd><dd><a href="http://help.d1.com.cn/hphelpnew.htm?code=0503" target="_blank"> 白金VIP的优惠及服务</a></dd></dl> 
+    <dl>
+    <div class="wx">
+    </div>
+    </dl>
+    
+     </div><div class="clear"></div>
+     <br>
+	<div class="bottom"></div>
+</div>
+<div id="footer">
+    <p><a href="http://help.d1.com.cn/hphelpnew.htm?code=0405" target="_blank">联系我们</a>|<a href="http://help.d1.com.cn/hphelpnew.htm?code=0705" target="_blank" rel="nofollow">关于我们</a>|<a href="http://help.d1.com.cn/hphelpnew.htm?code=03" target="_blank" rel="nofollow">配送范围</a>|<a href="http://help.d1.com.cn/hphelpnew.htm?code=02" target="_blank" rel="nofollow">如何付款</a>|<a href="http://help.d1.com.cn/hphelpnew.htm?code=0701" target="_blank" rel="nofollow">品牌合作</a>|<a href="http://www.d1.com.cn/html/friendlink.jsp" target="_blank">友情链接</a>|<a onclick="zhiyao()" href="javascript:void(0)" >营业执照</a>|<a href="http://www.kubolo.com" target="_blank">全球创意购</a>
+    </p><div style="display:none;">
+        <table width="980" class="nt">
+     <tbody><tr><td height="35" style="padding-left:6px;"><a href="http://www.d1.com.cn/channel/list/A" target="_blank">A</a><a href="http://www.d1.com.cn/channel/list/B" target="_blank">B</a><a href="http://www.d1.com.cn/channel/list/C" target="_blank">C</a>
+     <a href="http://www.d1.com.cn/channel/list/D" target="_blank">D</a><a href="http://www.d1.com.cn/channel/list/E" target="_blank">E</a><a href="http://www.d1.com.cn/channel/list/F" target="_blank">F</a>
+     <a href="http://www.d1.com.cn/channel/list/G" target="_blank">G</a><a href="http://www.d1.com.cn/channel/list/H" target="_blank">H</a><a href="http://www.d1.com.cn/channel/list/I" target="_blank">I</a>
+     <a href="http://www.d1.com.cn/channel/list/J" target="_blank">J</a><a href="http://www.d1.com.cn/channel/list/K" target="_blank">K</a><a href="http://www.d1.com.cn/channel/list/L" target="_blank">L</a>
+     <a href="http://www.d1.com.cn/channel/list/M" target="_blank">M</a><a href="http://www.d1.com.cn/channel/list/N" target="_blank">N</a><a href="http://www.d1.com.cn/channel/list/O" target="_blank">O</a>
+     <a href="http://www.d1.com.cn/channel/list/P" target="_blank">P</a><a href="http://www.d1.com.cn/channel/list/Q" target="_blank">Q</a><a href="http://www.d1.com.cn/channel/list/R" target="_blank">R</a>
+     <a href="http://www.d1.com.cn/channel/list/S" target="_blank">S</a><a href="http://www.d1.com.cn/channel/list/T" target="_blank">T</a><a href="http://www.d1.com.cn/channel/list/U" target="_blank">U</a>
+     <a href="http://www.d1.com.cn/channel/list/V" target="_blank">V</a><a href="http://www.d1.com.cn/channel/list/W" target="_blank">W</a><a href="http://www.d1.com.cn/channel/list/X" target="_blank">X</a>
+     <a href="http://www.d1.com.cn/channel/list/Y" target="_blank">Y</a><a href="http://www.d1.com.cn/channel/list/Z" target="_blank">Z</a></td></tr>
+ </tbody></table>
+    </div>
+    <p></p>
+      <p></p><div><a href="http://www.hd315.gov.cn/beian/view.asp?bianhao=010202003031700010" target="_blank" rel="nofollow"><img src="http://images.d1.com.cn/homeimg07/wei_349.gif" width="45" height="50" border="0"></a><a id="___szfw_logo___" href="https://search.szfw.org/cert/l/CX20130321002326002808" target="_blank"><img src="http://images.d1.com.cn/images2013/index/cx.png?l=CX20130321002326002808"></a>
+      <script type="text/javascript">(function(){document.getElementById('___szfw_logo___').oncontextmenu = function(){return false;}})();</script><a href="http://images.d1.com.cn/images2010/2010ec100.jpg" target="_blank" rel="nofollow"><img src="http://images.d1.com.cn/images2010/ceca.gif" width="117" height="42" border="0"></a><a href="http://images.d1.com.cn/images2010/dzxh91602_mwang.jpg" target="_blank" rel="nofollow"><img src="http://images.d1.com.cn/images2010/beca.gif" width="79" height="42"></a><a href="http://images.d1.com.cn/images2012/foot/2007_top100.jpg" target="_blank" rel="nofollow"><img src="http://images.d1.com.cn/homeimg07/top100_logo.gif" border="0"></a><a href="http://www.ectrustprc.org.cn/seal/splash/1000016.htm" target="_blank" rel="nofollow"><img src="http://images.d1.com.cn/homeimg07/redlogo.gif" border="0"></a></div><div> 京ICP证030072号&nbsp;&nbsp;京公网安备：110108905029 &nbsp;&nbsp;www.D1.com.cn Copyright 2002-2016 D1优尚网 版权所有</div><p></p>
+<!-- <script type="text/javascript" src="/res/js/product/scrolltopcontrol.js?1.11"></script> -->
+
+<script type="text/javascript" src="/kbl/lib/layer/3.2/layer.js"></script>
+	<script>
+	
+		  function zhiyao(){
+			  layer.open({
+			      type: 1,
+			      title:'营业执照',
+			      offset: 'auto',
+			      area: ['60%', '500px'],
+			      shadeClose: true, //点击遮罩关闭
+			      content: '\<\div style="padding:20px;"><img style="width:100%;height:auto" src = "http://images1.d1.com.cn/shopimg/gdsimg/202103/image/784135dc-556b-480e-8cfc-2b495ecc987c.jpg">\<\/div>'
+			    });
+		  }
+	
+	   
+	      $('#copyUrl').click(function(){
+	    	  window.location.href = " https://beian.miit.gov.cn";
+	      })
+	     
+	</script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?47fc789d5e1f82a06ff14b894d90fc19";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+
+</div>
+    
+</div>
+</body>
+</html>
+<script type="text/javascript">
+   function Check()
+   {
+	   if($('#s4').val()=='')
+		   {
+		   $.alert('搜索内容不能为空！','提示');
+		   return;
+		   }
+	   else
+		   {
+		   $('#sform').submit();
+		   }
+   }
+</script>
